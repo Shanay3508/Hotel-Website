@@ -1,0 +1,267 @@
+/*reset css*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/* main styling*/
+
+html,body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+a{
+    color: blue;
+    text-decoration: none;
+
+
+}
+h1,h2,h3{
+    padding-bottom: 20px;
+
+}
+p{
+    margin:10px o;
+}
+
+/* utility classes*/
+.container{
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+
+}
+.text-primary{
+    color:#f7c08a;
+}
+
+.lead{
+    font-size: 24px;
+    color: lightgrey;
+}
+
+.btn{
+    display:inline-block;
+    font-size: 23px;
+    color: white;
+    background: #333;
+    border-radius: 10px;
+    padding: 13px 20px;
+    border: none;
+    cursor:pointer;
+}
+
+.btn:hover{
+    background:#f7c08a;
+    color: #333;
+}
+
+.btn-light{
+    color: #333;
+    background: #f4f4f4f4;
+}
+.bg-dark{
+    background: #333;
+    color: white;
+}
+ .bg-light{
+     background: #f4f4f4f4;
+     color: #333;
+ }
+
+ .bg-primary{
+     color: #333;
+     background:#f7c08a;
+ }
+ .clr{
+     clear:both;
+ }
+ .l-heading{
+     font-size: 40px;
+ }
+
+ /*padding*/
+
+ .py-1{padding: 10px 0;}
+ .py-2{padding: 20px 0;}
+ .py-3{padding: 30px 0;}
+
+
+/* navbar styling*/
+
+#navbar{
+    background-color: #333;
+    color: white;
+    overflow: auto;
+}
+#navbar a{
+    color: white;
+
+}
+
+#navbar h1{
+    float: left;
+    padding-top: 20px
+}
+
+#navbar ul{
+    list-style: none;
+    float:right
+}
+#navbar ul li{
+    float: left;
+
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current{
+    background: #444;
+    color: #f7c08a;
+
+
+}
+/* showcase styling */
+
+#showcase{
+    background: url('../showcase.jpg.jpg') no-repeat center center/cover;
+    height: 600px;
+}
+
+#showcase .showcase-content{
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+}
+
+#showcase .showcase-content h1{
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+#showcase .showcase-content p{
+    padding-bottom: 20px;
+    line-height: 1.8em;
+}
+
+/* home-info styling*/
+
+#home-info{
+    height: 500px;
+
+}
+#home-info .info-img{
+    float: left;
+    width: 50%;
+    background: url('../homepage.jpg.jpg') no-repeat center center/cover;
+    min-height: 100%;
+}
+#home-info .info-content{
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+
+#home-info .info-content p{
+    padding-bottom: 100px;
+}
+
+/*features styling*/
+.box{
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    text-align: center;
+}
+.box i{
+    margin-bottom: 10px;   
+}
+/* about info styling*/
+#about-info .info-right{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+#about-info .info-right img{
+    width: 70%;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+}
+#about-info .info-left{
+    float:left;
+    width: 50%;
+    min-height: 100%;
+}
+/*testimonials*/
+#testimonials{
+    height: 600px;
+    background: url('../testimonial.jpg') no-repeat center center/cover;
+    padding-top: 40px;
+
+}
+#testimonials .testimonial{
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 30px;
+    opacity: 0.8;
+}
+#testimonials .testimonial img{
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+#testimonials h2{
+    color: coral;
+    text-align:center;
+    padding-bottom: 40px;
+
+}
+
+/* cntact form*/
+#contact-form .form-group{
+    margin-bottom: 20px;
+}
+
+#contact-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+#contact-form input,
+ #contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    background:1px #ddd solid;
+
+}
+#contact-form textarea{
+    height:200px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus{
+    outline: none;
+    border-color:#f7c08a;
+    
+}
+/* main footer styling*/
+
+#main-footer{
+    text-align: center;
+    background: #444;
+    color: white;
+    padding: 20px;
+}
+
+
